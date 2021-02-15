@@ -3,7 +3,7 @@ name: Run Playwright tests in CI
 on:
   push:
     branches:
-    - main
+    - master
 
 jobs:
   e2e-tests:
