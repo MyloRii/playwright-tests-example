@@ -1,10 +1,9 @@
 {
-  "name": "playwright-jest-example",
+  "name": "playwright-tests-example",
   "version": "1.0.0",
-  "description": "Test project to rty out Playwright as a testing tool",
-  "main": "index.js",
+  "description": "Test project to try out Playwright as a testing tool",
   "scripts": {
-    "test": "jest"
+    "test": "npx folio"
   },
   "keywords": [
     "Playwright"
