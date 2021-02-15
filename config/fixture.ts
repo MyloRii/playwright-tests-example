@@ -6,7 +6,6 @@ const fixtures = base.extend<{ browser: Browser }>();
 fixtures.browser.init(async ({}, run) => {
     const browser = await chromium.launch({
         headless: false,
-        executablePath: "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
     });
     await run(browser);
 })
