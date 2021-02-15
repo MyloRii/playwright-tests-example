@@ -1,5 +1,4 @@
 import {Page} from "playwright";
-import {basicWebPageExample} from "../config/url";
 
 export class BasicWebPageExamplePage {
     private page: Page;
@@ -8,10 +7,6 @@ export class BasicWebPageExamplePage {
 
     constructor(page: Page) {
         this.page = page;
-    };
-
-    async navigate() {
-        await this.page.goto(basicWebPageExample);
     };
 
     getFirstParagraphText() {
