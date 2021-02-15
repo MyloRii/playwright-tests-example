@@ -1,16 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "es6",
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "types": [
-      "@types/jest",
-      "jest-playwright-preset",
       "expect-playwright",
       "node",
-      "jest"
     ],
     "typeRoots": [
       "node_modules/@types"
