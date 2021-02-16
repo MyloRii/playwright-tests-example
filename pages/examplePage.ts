@@ -1,6 +1,6 @@
 import {Page} from "playwright";
 
-export class BasicWebPageExamplePage {
+export class ExamplePage {
     private page: Page;
     readonly firstParagraph = `#para1`;
     readonly firstParagraphValue = 'A paragraph of text';

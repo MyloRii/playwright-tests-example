@@ -3,16 +3,17 @@ import {describe, expect, it} from "@playwright/test";
 
 const goRestController = new GoRest();
 
-describe('GoRest controller',() => {
-    it('should get users list', async() => {
+describe('Api Tests', () => {
+
+    it('should get users list', async () => {
         const usersList = await goRestController.getUsers();
         expect(usersList.data).toBeDefined();
     })
 
-    it('should add and delete user', async() => {
+    it('should add and delete user', async () => {
         const user = {
-            "name":"Tenali Ramakrishna",
-            "gender":"Male",
+            "name": "Tenali Ramakrishna",
+            "gender": "Male",
             "email":"tenaliya.ramakrishnauhavav@15ce.com",
             "status":"Active"
         };
